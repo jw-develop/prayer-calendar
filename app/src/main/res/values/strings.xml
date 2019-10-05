@@ -9,8 +9,46 @@
 
     <string name="menu_today">Today</string>
     <string name="menu_all">All</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+
+    <string name="text_all">"Test Text</string>
+
+    <string name="large_text">
+        "1  - Father David / Holy Trinity \n"
+        "2  - K Mom \n"
+        "3  - Chloe / Joyce \n"
+        "4  - Jacob \n"
+        "5  - Claire S. / Chem \n"
+        "\n"
+        "6  - Tom / Charles / Drew \n"
+        "7  - Billy \n"
+        "8  - J Dad \n"
+        "9  - Madeline / Ariane / Lizzy / Alex \n"
+        "10 - Jed / Sav \n"
+        "\n"
+        "11 - Ella \n"
+        "12 - Ben \n"
+        "13 - Kate \n"
+        "14 - Materials People \n"
+        "15 - J Gparents \n"
+        "\n"
+        "16 - Delaney / Small Group \n"
+        "17 - K Dad \n"
+        "18 - Mark / Glenn / Ward \n"
+        "19 - Carissa \n"
+        "20 - Chester / Shuch. / Rez \n"
+        "\n"
+        "21 - Claire \n"
+        "22 - Elijah / Kar \n"
+        "23 - Dinah / Fran / Kathryn \n"
+        "24 - Luke / Julia \n"
+        "25 - J Mom \n"
+        "\n"
+        "26 - Ella M / Mom Tenney / FFMC \n"
+        "27 - Joe / Andrew \n"
+        "28 - Gabe / Sam / Shawn / Blake \n"
+        "29 - K Gparents \n"
+        "30 - David \n"
+        "\n"
+        "31 - J Etc. / K Etc \n"
+    </string>
 </resources>

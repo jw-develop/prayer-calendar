@@ -1,4 +1,4 @@
-package com.example.prayercalendar.ui.send;
+package com.example.prayercalendar.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.prayercalendar.R;
 
-public class SendFragment extends Fragment {
+public class AllFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+    private AllViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_send, container, false);
-        final TextView textView = root.findViewById(R.id.text_send);
-        sendViewModel.getText().observe(this, new Observer<String>() {
+        homeViewModel =
+                ViewModelProviders.of(this).get(AllViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_all, container, false);
+        final TextView textView = root.findViewById(R.id.fabfragment_all);
+        homeViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

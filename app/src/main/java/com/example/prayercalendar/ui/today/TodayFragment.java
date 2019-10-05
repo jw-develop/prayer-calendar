@@ -1,4 +1,4 @@
-package com.example.prayercalendar.ui.tools;
+package com.example.prayercalendar.ui.today;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.prayercalendar.R;
 
-public class ToolsFragment extends Fragment {
+public class TodayFragment extends Fragment {
 
-    private ToolsViewModel toolsViewModel;
+    private TodayViewModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        toolsViewModel =
-                ViewModelProviders.of(this).get(ToolsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_tools, container, false);
-        final TextView textView = root.findViewById(R.id.text_tools);
-        toolsViewModel.getText().observe(this, new Observer<String>() {
+        galleryViewModel =
+                ViewModelProviders.of(this).get(TodayViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_today, container, false);
+        final TextView textView = root.findViewById(R.id.text_today);
+        galleryViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
