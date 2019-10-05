@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='PrayerCalendar'
+rootProject.name='Prayer Calendar'
